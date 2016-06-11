@@ -1,5 +1,4 @@
-
-FROM node
+FROM registry.dataos.io/library/node 
 COPY . /playground
 WORKDIR /playground
 RUN npm install --registry http://registry.cnpmjs.org
